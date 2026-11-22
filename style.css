@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: #f2f5f9;
+}
+
+header {
+    background-color: #571414;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+}
+
+nav a:hover {
+    color:yellow;
+}
+
+.home {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #dbeafe;
+}
+
+.home h2 {
+    font-size: 30px;
+}
+
+.button {
+    background-color: #8d091d;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.container {
+    padding: 30px;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* .card {
+    background-color: white;
+    width: 250px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #ccc;
+} */
+
+.card {
+    background-color: white;
+    width: 250px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #ccc;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    background-color: white;
+    width: 350px;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 10px;
+}
+/* new */
+.card form {
+    width: 100%;
+    margin: auto 0 0 0;
+    padding: 15px 0 0 0;
+    background: none;
+    box-sizing: border-box;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+}
+
+/* button {
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    cursor: pointer;
+} */
+
+button {
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: yellow;
+}
+
+table {
+    width: 90%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+th {
+    background-color: #571414;
+    color: white;
+}
